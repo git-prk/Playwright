@@ -1,0 +1,14 @@
+npm init playwright@latest
+Use this command for installation
+System requirements
+Node Js 18+
+windows 10+
+
+
+
+npx playwright test TC01.Login.spec.js -- headed
+
+ //AAA
+    //Arrange
+    //Action
+    //Assertion 
