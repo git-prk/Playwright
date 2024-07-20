@@ -6,4 +6,5 @@ test('Verify login on swag',async({page})=>{
     await page.locator('input[placeholder="Password"]').fill('secret_sauce')
     await page.locator('input[type="submit"]').click()
     await expect(page).toHaveURL('https://www.saucedemo.com/v1/inventory.html')
+    await page.locator()
 })
